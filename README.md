@@ -12,9 +12,20 @@
 |  5 |  J2ee   |1000 |    5     |22/08/2019 |
 
 #List All Books_Price Low to High
+
+`
 select Book_Name from Books order by price ASC;
+`
+
 #List All NewestFirst  High to Low 
+
+`
 select NewestFirst from Books order by price DESC;
+`
+
 #List All s:no  High to Low 
+
+`
 select s:no from Books order by popularity DESC;
+`
 
